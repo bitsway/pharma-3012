@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.eappair.fmcg"
+        id        = "com.mreporting.fmcg"
         version   = "1.0.0">
 
     <name>FMCG</name>
 
     <description>
-        M-Reporting - FMCG
+       FMCG
     </description>
 
-    <author href="http://im-gp.com" email="sabbir456@gmail.com">
-       business solution apps team
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        business solution apps team
     </author>
 
     <!--
@@ -99,11 +99,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"          gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
-
-<preference name="AutoHideSplashScreen" value="true" />
- <preference name="SplashScreenDelay" value=1000" />
-	
-	
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>100</string>
     </gap:config-file>
 
