@@ -88,7 +88,7 @@
 
     <!-- Define app splash screen for each platform. -->
 <platform name="android">
-
+	<splash src="splash.png" />
     <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
     <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
     <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
